@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+ <!-- CSS only -->
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+     <!-- icons -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap" rel="stylesheet">
+<!-- CSS only -->
+<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous"> -->
+    
+<link rel="stylesheet" href="style.css">
+    <title>Virtual Card</title>
+</head>
+<body>
+    <div class="main">
+
+    <!-- large nav -->
+  <nav class="navbar navbar-expand-lg bg-none fw-bold pt-3">
+    <div class="container-fluid nav">
+      <a class="navbar-brand fw-bold ms-5 top-text" href="index.html">The Neighborhood</a>
+      <div class="navbar-nav">
+        <a class="nav-link " aria-current="page" href="index.html">Home</a>
+        <a class="nav-link active" href="card.html">Rewards</a>
+        <a class="nav-link" href="community.html">Community</a>
+      </div>
+      <a href="dex.html">
+        <button class="bluebtn p-3 fw-bold me-5" type="submit">Launch App</button>
+      </a>
+    </div>
+  </nav>
+<!-- mobile nav -->
+  <nav class="navbar navbar-expand-lg bg-none mobile-nav">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold ms-3 top-text" href="index.html">The Neighborhood</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarNav">
+        <ul class="navbar-nav flex-row">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="card.html">Rewards</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="community.html">Community</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+       
+                <div class="debit-body">
+                    <!-- <h1>Neighborhood Card</h1> -->
+                    <h1>The Block Card</h1>
+                    <h2>The Visa® debit card that turns your everyday purchases into crypto rewards¹/digital assets</h2>
+                </div>
+
+                <!-- <div class="center">
+                    <button class="btn"> <a href="signup.html">
+                        <svg class="svg" width="180px" height="60px" viewBox="0 0 180 60" class="border">
+                          <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
+                          <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+                        </svg>
+                        <span>Sign up to get started</span>
+                    </a>
+                      </button>
+                </div> -->
+
+    <div class="container-debit">
+        <div class="debit">
+            <div class="debit-inner">
+                <div class="front">
+                    <img class="map-img" src="images/map.png" alt="">
+                    <div class="head">
+                        <img src="images/chip.png" alt="" style="width: 60px;">
+                        <img src="images/visa.png" alt="" style="width: 80px;">
+                    </div>
+                    <div class="debit-no">
+                        <p>2947</p>
+                        <p>3495</p>
+                        <p>5942</p>
+                        <p>9907</p>
+                    </div>
+                    <div class="debit-holder">
+                        <p>CARD HOLDER</p>
+                        <p>VALID TILL</p>
+                    </div>
+                    <div class="name">
+                        <p>Johnny Blaze</p>
+                        <p>06 / 25</p>
+                    </div>
+                    <!-- close front -->
+                </div>
+                <div class="back">
+                    <img class="map-img" src="images/map.png" alt="" sty>
+                    <div class="bar"></div>
+                    <div class="debit-cvv">
+                        <div>
+                            <img src="images/pattern.png" alt="">
+                        </div>
+                        <p>777</p>
+                    </div>
+                    <div class="debit-text">
+                        <p>Lorem ipsum dolor sit amet
+                             consectetur adipisicing elit. Aperiam, voluptatibus.</p>
+                    </div>
+                    <div class="signature">
+                        <p>CUSTOMER SIGNATURE</p>
+                        <img style="width: 50px;" src="images/visa.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section coinperks">
+        <div class="coins">
+            <img src="images/bitcoin.png" alt="">
+            <img src="images/ethereum.png" alt="">
+            <img src="images/algo.png" alt="">
+            <img src="images/ada.png" alt="">
+            <img src="images/xlm.png" alt="">
+            <img src="images/mana.png" alt="">
+            <img src="images/polygon.png" alt="">
+        </div>
+
+        <div class="perks">
+            <h2>The world is yours</h2>
+            <ul>
+                <li><strong>No fees</strong>
+                <p>No monthly or annual fees.</p>
+                </li>
+                <li><strong>Diversify your rewards¹</strong>
+                <p>Gain full control of the rewards you earn and switch at any time you feel like it.</p>
+                </li>
+                <li><strong>Spend USD or crypto</strong>
+                <p>Spend your money in cash or crypto with no transaction fees.¹ </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+    
+    
+    <div class="section"></div>
+    
+    <!-- closing main -->
+</div>
+    
+ <!-- JavaScript Bundle with Popper -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+</body>
+</html>
