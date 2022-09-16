@@ -60,9 +60,33 @@
 
 
     <nav class="navbar navbar-expand-lg mt-5">
-        <button id="login_button" type="submit"> 
+        <button id="login_button" class="full_login" type="submit"> 
         <img src="images/metamask.png" alt="">Sign in with MetaMask</button>
     </nav>
+
+        <!-- Button trigger modal -->
+    <nav class="navbar navbar-expand-lg mb-5" type="submit" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <button id="login_button" class="mobile_login" type="submit"> 
+        <img src="images/metamask.png" alt="">Sign in with MetaMask</button>
+    </nav>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Please download MetaMask</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        For mobile use, please download MetaMask and visit our site through the MetaMask app
+      </div>
+      <div class="modal-footer">
+        <button data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
     
     <div class ="container">
         <div class="row">

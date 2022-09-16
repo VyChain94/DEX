@@ -70,6 +70,14 @@ h5{
     background-position: center;
     background-size: 100%;
 }
+.mobile_login{
+    display: none;
+}
+
+.modal-body {
+    max-height: 200px;
+    overflow: none;
+}
 
 @media (min-width: 992px){
     .navbar-expand-lg .navbar-nav .nav-link {
@@ -133,6 +141,12 @@ h5{
 @media (max-width: 488px){
 .ticker {
     width: 50%;
+}
+.mobile_login{
+    display: block;
+}
+.full_login{
+    display: none;
 }
 }
 
