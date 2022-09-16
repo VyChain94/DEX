@@ -42,12 +42,12 @@ h5{
 }
 
 
-/* bootstrap */
+/* BOOTSTRAP */
 
 .nav-link {
     color: white;
-    padding-left: 1rem;
-    padding-right:1rem;
+    padding-left: .25rem;
+    padding-right:.25rem;
 }
 .mobile-nav{
     display: none;
@@ -64,9 +64,6 @@ h5{
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
-}
-.nav-item{
-    padding-right:15px ;
 }
 
 @media (min-width: 992px){
@@ -114,7 +111,18 @@ h5{
 .container, .container-sm {
     max-width: 90%;
 }
+.debit-mobile{
+    display: none;
+}
+}
 
+@media (max-width: 576px){
+.debit{
+        display: none;
+    }
+.container-debit{
+    display: none;
+}
 }
 
 @media (max-width: 488px){
@@ -151,23 +159,18 @@ footer{
 /* CARD */
     /* may not need all of this in the container card */
 .container-debit{
-    min-height: 100vh;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center; 
 }
-.debit-body h1, .debit-body h2{
-    text-align: center;
-    margin:30px auto;
+.container-debit-mobile{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
 }
 
-.debit-body {
-    width:60%;
-    margin:100px auto;
-    line-height: 2em;
-
-}
 .debit{
     width: 500px;
     height: 300px;
@@ -175,7 +178,14 @@ footer{
     cursor: pointer;
     perspective: 1000px;
     font-family: 'Josefin Sans', sans-serif;
-
+}
+.debit-mobile{
+    width: 300px;
+    height: 200px;
+    color: #fff;
+    cursor: pointer;
+    perspective: 1000px;
+    font-family: 'Josefin Sans', sans-serif;
 }
 .debit-inner{
     width: 100%;
@@ -196,7 +206,18 @@ footer{
     overflow: hidden;
     z-index: 1;
     backface-visibility: hidden;
-
+}
+.front-mobile{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(45deg, #5DCAD1, #5D90D1 70%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 15px;
+    border-radius: 15px;
+    overflow: hidden;
+    z-index: 1;
 }
 .head{
     display: flex;
@@ -218,6 +239,13 @@ footer{
     font-size: 35px;
     margin-top: 60px;
 }
+.debit-no-mobile{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.25rem;
+    margin-top: 30px;
+}
 .debit-holder{
     display: flex;
     justify-content: space-between;
@@ -225,6 +253,11 @@ footer{
 }
 .name{
     font-size:1.2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.name-mobile{
+    font-size:1rem;
     display: flex;
     justify-content: space-between;
 }
@@ -270,7 +303,6 @@ footer{
 
 .coinperks{
     width:60%;
-    /* border: 2px solid red; */
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
@@ -281,7 +313,7 @@ footer{
     align-items: flex-end;
     justify-content: space-around;
     position: absolute;
-    bottom: -900px;
+    bottom: -400px;
 
 }
 .coins img{
@@ -294,7 +326,7 @@ footer{
         opacity:0;
     }
     25%{
-        opacity:1;
+        opacity:0;
     }
     50%{
         opacity:1;
@@ -303,8 +335,8 @@ footer{
         opacity:1;
     }
     100%{
-        transform:translateY(-80vw);
-        opacity:0;
+        transform:translateY(-100vh);
+        opacity:1;
     }
 }
 
@@ -332,10 +364,7 @@ footer{
 .coins img:nth-child(7){
     animation-delay:7s;
 }
-.perks{
-    width: 50%;
-    margin: 0 auto;
-}
+
 .perks ul li{
     margin: 20px 0;
 }
