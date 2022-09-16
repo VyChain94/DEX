@@ -49,6 +49,11 @@ h5{
     padding-left: .25rem;
     padding-right:.25rem;
 }
+.nav-item {
+    color: white;
+    padding-left: .25rem;
+    padding-right:.25rem;
+}
 .mobile-nav{
     display: none;
 }
@@ -318,6 +323,7 @@ footer{
 }
 .coins img{
     width:50px;
+    margin: 0 auto;
     animation: coin 3s linear infinite;
 }
 @keyframes coin {
@@ -335,7 +341,7 @@ footer{
         opacity:1;
     }
     100%{
-        transform:translateY(-100vh);
+        transform:translateY(-80vw);
         opacity:1;
     }
 }
@@ -362,7 +368,7 @@ footer{
     width: 40px;
 }
 .coins img:nth-child(7){
-    animation-delay:7s;
+    animation-delay:2.5s;
 }
 
 .perks ul li{
