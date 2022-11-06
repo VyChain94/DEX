@@ -1,7 +1,7 @@
 <h1 align="center">The Neighborhood</h1>
 
 <p align="center">
-  A Token Swap Dapp utilizing the 0x API that requires user's to connect to their MetaMask accout
+  A Token Swap Dapp utilizing the 0x API that requires user's to connect to their MetaMask account
 and aggregate liquidity across the greater DEX ecosystem and surfacee the best price to the user.
 </p>
 
