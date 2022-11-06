@@ -19,7 +19,7 @@ which is to allow communities and their members to be in direct control of its f
   To use the Token swap app feature, You simply just need to click on the Launch App button on any of the pages. Which will lead you to the app, once you are on the swap dapp click on the "Sign In With MetaMask" button. (If you don't have MetaMask extenstion on your browser you must first install it.) <br>
   The MetaMask button will then read "Connected" if you are correctly connected. <br>
   Now that you are connected, click on "swap from:" and choose the token you would like to swap from. Once decided, click on "swap to:" and choose the token you would like to swap to. <br>
-  clicking out of the "swap from:" box will then generate the token conversion rate and gas fees that will be applied to your swap.
+  clicking out of the "swap from:" box will then generate the token conversion rate and gas fees that will be applied to your swap. (**Just recently found a bug today 11/5/2022 That doesn't allow me to click on the swap button and initiate the swap**)
 </h3>
 
 <h2>BUILT WITH</h2>
