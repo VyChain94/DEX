@@ -1,9 +1,4 @@
-/* ALL HTML */
-/* *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-} */
+
 /* GLOBAL */
 body{
     overflow-x: hidden;
@@ -76,7 +71,7 @@ h5{
 
 .modal-body {
     max-height: 200px;
-    overflow: none;
+    overflow: hidden;
 }
 
 @media (min-width: 992px){
@@ -440,10 +435,7 @@ footer{
     margin: 0 auto;
     width: 70%;
 }
-/* .swapbox_select {
-    width: 50%;
-    float: left;
-} */
+
 .swapbox{
     overflow: auto;
     margin: 20px auto;
@@ -528,26 +520,6 @@ footer{
         margin-right: auto;
         left: 0;
         right: 0;
-        /* text-align: center; */
-      }
-      
-      
-      /* WHERE STATIC STARTS ON HOVER */
-      .btn:hover .svg {
-        stroke-dashoffset: -480;
-      }
-      
-      /* lightning strike around btn */
-      .svg {
-        position: absolute;
-        left: 0;
-        top: 0;
-        fill: none;
-        stroke:#5DCAD1;
-        stroke-width: 1px;
-        stroke-dasharray: 150 480;
-        stroke-dashoffset: 150;
-        transition: 1s ease-in-out;
       }
       
     /* btn */
@@ -595,18 +567,6 @@ footer{
     stroke-dashoffset: -480;
   }
   
-  /* lightning strike around btn */
-  .svg{
-    position: absolute;
-    left: 0;
-    top: 0;
-    fill: none;
-    stroke:white;
-    stroke-dasharray: 150 480;
-    stroke-dashoffset: 150;
-    transition: 1s ease-in-out;
-  }
-    
   .content{
     color:aliceblue;
     margin-left: 100px;
