@@ -2,11 +2,11 @@
 
 <p align="center">
   A Token Swap Dapp utilizing the 0x API that requires user's to connect to their MetaMask account
-and aggregate liquidity across the greater DEX ecosystem and surfacee the best price to the user.
+and aggregate liquidity across the greater DEX ecosystem and surface the best price to the user.
 </p>
 
 <h2> 
-  I created this project to allow users to connect to the Web3 DEFI ecosystem without having to create accounts or log in to sites like coinbase, kraken, binance, etc.
+  I created this project to allow users to connect to and trade didgital assets through the Web3 DEFI ecosystem without having to create accounts or log in to sites like coinbase, kraken, binance, etc.
 <h2>
 
 <h3>
@@ -18,7 +18,7 @@ which is to allow communities and their members to be in direct control of its f
  <div>
   <h1>How To Use</h1>
 <h3>
-  To use the Token swap app feature, You simply just need to click on the Launch App button on any of the pages. Which will lead you to the app, once you are on the swap dapp click on the "Sign In With MetaMask" button. (If you don't have MetaMask extenstion on your browser you must first install it.) <br>
+  To use the Token swap dapp feature, You simply just need to click on the Launch App button on any of the pages. Which will lead you to the app, once you are on the swap dapp click on the "Sign In With MetaMask" button. (If you don't have MetaMask extenstion on your browser you must first install it.) <br>
   The MetaMask button will then read "Connected" if you are correctly connected. <br>
   Once that you are connected, click on "swap from:" and choose the token you would like to swap from. Once decided, click on "swap to:" and choose the token you would like to swap to. <br>
   clicking out of the "swap from:" box will then generate the token conversion rate and gas fees (in gwei) that will be applied to your swap.
